@@ -1,7 +1,10 @@
 fun main(args: Array<String>) {
-    println("Hello World!")
+    println("Unesite brojeve")
 
-    // Try adding program arguments via Run/Debug configuration.
-    // Learn more about running applications: https://www.jetbrains.com/help/idea/running-applications.html.
-    println("Program arguments: ${args.joinToString()}")
+
+
+    val broj1= readln().toInt()
+    val broj2= readln().toInt()
+    val zbir=broj1+broj2
+    println("Zbir: $zbir")
 }
